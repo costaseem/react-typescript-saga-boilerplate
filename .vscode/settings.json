@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "Fira Code Light",
+    "editor.fontLigatures": true,
+    // "editor.fontWeight": "300",
+    "editor.tabSize": 2,
+    "editor.snippetSuggestions": "top"
+}

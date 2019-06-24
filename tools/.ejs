@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <title><%= process.env.NODE_ENV === 'development' ? htmlWebpackPlugin.options.title + ' - DEV' : htmlWebpackPlugin.options.title + ' - PRD' %></title>
+    <noscript id="jss-insertion-point"></noscript>
+  </head>
+  <body>
+    <app></app>
+  </body>
+</html>

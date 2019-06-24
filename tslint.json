@@ -1,0 +1,9 @@
+{
+  "extends": [ "tslint:recommended", "tslint-react" ],
+  "rules": {
+    "jsx-wrap-multiline": [false, "always"],
+    "quotemark": [false, "always"],
+    "semicolon": [false, "always"],
+    "trailing-comma": [false, "always"]
+  }
+}

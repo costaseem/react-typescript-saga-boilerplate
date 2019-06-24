@@ -1,0 +1,78 @@
+{
+  "name": "react-typescript-saga-boilerplate",
+  "version": "1.0.0",
+  "description": "A React + Typescript + Redux Saga boilerplate",
+  "app_settings": {
+    "title": "React App"
+  },
+  "main": "./app/main.tsx",
+  "scripts": {
+    "start": "cross-env NODE_ENV='development' webpack-dev-server",
+    "build": "cross-env NODE_ENV='production' webpack $npm_package_main%",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costaseem/react-typescript-saga-boilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "Typescript",
+    "Redux Saga",
+    "Stylus",
+    "Hot Reload"
+  ],
+  "author": "Guilherme Jacob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costaseem/react-typescript-saga-boilerplate/issues"
+  },
+  "homepage": "https://github.com/costaseem/react-typescript-saga-boilerplate#readme",
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.8.6",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.1.0",
+    "@types/react-router-dom": "^4.3.3",
+    "@types/redux-form": "^8.1.3",
+    "@types/redux-saga": "^0.10.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux-form": "^8.2.4",
+    "redux-saga": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^5.2.0",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^3.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jeet": "^7.2.0",
+    "kouto-swiss": "^1.1.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "react-hot-loader": "^4.11.0",
+    "redbox-react": "^1.6.0",
+    "rupture": "^0.7.1",
+    "style-loader": "^0.23.1",
+    "stylus-loader": "^3.0.2",
+    "tslint": "^5.17.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.1",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "url-loader": "^2.0.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
