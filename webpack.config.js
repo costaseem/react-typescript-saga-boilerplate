@@ -1,4 +1,4 @@
-const { resolve }      = require('path')
+const { resolve }            = require('path')
 const webpack                = require('webpack')
 const merge                  = require('webpack-merge')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
@@ -7,8 +7,8 @@ const koutoSwiss             = require('kouto-swiss')
 const jeet                   = require('jeet')
 const rupture                = require('rupture')
 
-const WebpackDevConfig       = require('./public/webpack.dev.js')
-const WebpackProdConfig      = require('./public/webpack.prod.js')
+const WebpackDevConfig       = require('./tools/webpack.dev.js')
+const WebpackProdConfig      = require('./tools/webpack.prod.js')
 
 const PROD = process.env.NODE_ENV ? process.env.NODE_ENV === 'production' && true : false
 
@@ -67,7 +67,7 @@ const common = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: require('./package.json').app_settings.title,
-      template: resolve(__dirname, 'public/.ejs'),
+      template: resolve(__dirname, 'tools/.ejs'),
       minify: {
         removeComments: true,
         collapseWhitespace: true
